@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARSHATH-Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/lucide-static@0.1.0/font/lucide.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <button class="menu-toggle" id="menu-toggle">
+        <i data-lucide="menu" id="menu-icon"></i>
+      </button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+  
+
+<section id="home" class="hero">
+  <div class="hero-background">
+    <div class="code-snippet">print("Hello World!")</div>
+    <div class="code-snippet">const innovation = true;</div>
+    <div class="code-snippet">11111111</div>
+    <div class="code-snippet">if (creativity) { build(); }</div>
+    <div class="code-snippet">let innovation = true;</div>
+    <div class="code-snippet">SELECT * FROM users WHERE creativity = true;</div>
+    <div class="code-snippet">True</div>
+    <div class="code-snippet">error 404</div>
+    <div class="code-snippet">00000000</div>
+    <div class="code-snippet">if else</div>
+    <div class="code-snippet">False</div>
+  </div>
+
+  <div class="hero-content">
+    <h1 class="hero-title">ARSHATH</h1>
+    <p class="hero-subtitle">Developer & Innovator</p>
+    <p class="hero-tagline">python • react • firebase</p>
+    <div class="scroll-down">
+      <i data-lucide="chevron-down"></i>
+    </div>
+  </div>
+</section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-image">
+          <img src="your.png" alt="arshath">
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Hi, I'm <b style="color: #ffffff;;">ARSHATH</b>, Aspiring Computer Science Engineer currently pursuing a Bachelor of Engineering in CSE,
+             with a strong foundation in programming languages. Acertified Junior Software Developer with hands-on experience using modern Al tools to solve real-world problems efficiently. 
+          </p>
+          <p> 
+           Eager to join an innovative-organization where I can expand my skills, 
+           embrace challenges, and make a positive impact through dedication and continuous imprownent.
+            
+          </p>
+        </div>
+        <a href="#" id="downloadBtn"   class="btn-resume">
+          <i data-lucide="download" style="margin-right: 8px;"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+            <h3>programming language</h3>
+            <ul>
+                <li>java</li>
+                <li>python</li>
+                <li>c</li>
+                <li>javascript</li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <h3>web development</h3>
+            <ul>
+                <li>HTML5 & CSS</li>
+                <li>responsive web design</li>
+                <li>front-end development</li>
+            </ul>    
+        </div>
+        <div class="skill-card">
+            <h3>database & backend</h3>
+            <ul>
+                <li>MYSQL</li>
+                <li>DBMS concepts</li>
+                <li>supabase(basic usage)</li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <h3>tools & platforms</h3>
+            <ul>
+                <li>VS code</li>
+                <li>git & gitHub</li>
+                <li>vercel,netlify(deployment)</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<section id="projects" class="projects">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-image">
+          <img src="chat.png" alt="SECURE CHAT APP">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="content">
+          <h3>SECURE CHAT APP</h3>
+          <span class="project-date">January 2025</span>
+          <p>Built a privacy-focused 1-to-1 messaging app using React Native and Firebase,featuring end-to-end 
+            encription and real-time messaging for seamless and user experience.</p>
+          <ul class="project-details">
+            <li>React Native,Firebase Authentication & firestore</li>
+            <li>ASE encription</li>
+            <li>Full-stack developer</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-tags">Web-development</span>
+           
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <img src="unit_con.png" alt="MY PORTFOLIO">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="content">
+          <h3>MY-PORTFOLIO</h3>
+          <span class="project-date">AUGEST 2025</span>
+          <p>Developed and deployed a responsive personal portfolio.</p>
+          <ul class="project-details">
+            <li>tech used : java script , HTML , css</li>
+            <li>User-friendly interface</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-tags">portfolio</span>
+            <a href="https://github.com/arshath-sk-16" target="_blank" class="github-icon">
+              <i data-lucide="github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education" class="education">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <div class="education-list">
+      <div class="education-card">
+        <div class="education-header">
+          <h3>Bachelor of Engineering</h3>
+          <span class="education-years">2023 - Present</span>
+        </div>
+        <h4>JJ College of Engineering and Technology</h4>
+        <ul class="education-details">
+          <li>Computer Science and Engineering</li>
+          <li>Expected Graduation: <strong>2027</strong></li>
+          <li>Current GPA: <span class="highlight">7.94</span></li>
+          <li>Relevant Courses: Junior software dev, Algorithms, Web Development, Machine Learning</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer id="contact" class="contact">
+      <div class="container">
+        <h3 class="section-title"> Let's Connect </h3>
+       <p class="contact-text">I'm always open to discussing new projects and opportunities.</p>
+    <div class="social-links">
+      <a href="https://github.com/ARSHATH-sk-16" target="_blank" class="social-link">
+        <i data-lucide="github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/arshath-sk" target="_blank" class="social-link">
+        <i data-lucide="linkedin"></i>
+      </a>
+      <a href="mailto:skarshath16@gmail.com" class="social-link">
+        <i data-lucide="mail"></i>
+      </a>
+    </div>
+
+  </div>
+  <div class="back-to-top">
+    <a href="#home"><i data-lucide="arrow-up"></i></a>
+  </div>
+</footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
