@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
   downloadBtn.addEventListener('click', (e) => {
     e.preventDefault(); 
     const link = document.createElement('a');
-    link.href = 'assets/resume.pdf';   // 👉 your local resume file
+    link.href = 'assets/z_resume.pdf';   // 👉 your local resume file
     link.download = 'Arshath_Resume.pdf';  
     document.body.appendChild(link);
     link.click();
